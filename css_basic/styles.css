@@ -4,6 +4,12 @@ main {
 }
 body{
     flex-direction: column;
+    background: rgb(44, 43, 43);
+    color: #fff;
+}
+header a,
+footer a {
+    color: #fff;
 }
 main{
     flex-direction: row;
@@ -16,4 +22,5 @@ article{
 aside{
     flex: 1;
     overflow-y: auto;
+    background: rgb(44, 43, 43);
 }
